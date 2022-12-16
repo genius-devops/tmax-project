@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: inherit;
+    font-size: 100%;
+
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1, h2, h3, h4, h5{
+    padding: 0;
+    margin: 0;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.item{
+    border: 1px solid #333;
+    background-color: #777;
+    width: 75px;
+    color: yellow;
+    margin: 10px ;
+
+}
+.container{
+    display: flex;
+    height: 500px;
+    background-color: #ccc;
+    border: 1px solid black;
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items is used to space an element inside the container  */
+    /* align-content: space-around ; */
+    /* align-content is used to space an element from one another outside the container */
+    /* flex wrap is used for multiple line flex ppts and as well the container can move to the next line */
+}
+
+.item1{ 
+    flex: 1 0 0;
+    /* flex with 1 0 0 implies: grow shrink basis repectively */
+    min-height: 50px;
+    
+}
+.item2{
+        min-height: 100px;
+        flex-grow: 2;
+        flex-basis: 0;
+        /* flex basis is used to increase thensize of a specific child */
+}
+.item3{
+    min-height: 150px;
+    flex-grow: 1;
+    /* flex grow is used to make continer (child) bigger than it siblings  */
+
+}
