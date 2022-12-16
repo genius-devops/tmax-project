@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: inherit;
+    font-size: 100%;
+
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1, h2, h3, h4, h5{
+    padding: 0;
+    margin: 0;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header{
+    background-color: #069;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.5rem;
+
+
+}
+
+.header-title{
+
+
+}
+.section{
+    padding: 1rem 2rem;
+
+}
+
+.section-accent{
+    background-color: #069;
+    color: aliceblue;
+    
+
+}
+
+.section-content{
+    padding-left: 1rem;
+
+}
+
+.skill-section{
+    margin: 0;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.project-section, .skill-section{
+    color: #777;
+}
+
+.project-list-item{
+    margin-bottom: 1rem;
+}
+
+.project-list-item:last-child{
+    margin: 0;
+}
+
+.section-content{
+    margin: 2rem  0;
+}
+
+.input{
+    border: 1px solid #AAA;
+    outline: none;
+    padding: .5em;
+    font-size: 1rem;
+    border-radius: .2em;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.input.input:focus{
+    border-color: #069;
+    box-shadow: 0 0 5px 0 #069;
+}
+
+.input-no-resize{
+    resize: none;
+}
+
+.btn{
+    background-color: hsl(200, 100%, 30%);
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .3em;
+    cursor: .5em;
+    outline: none;
+    color: aliceblue;
+}
+
+.btn:hover, .btn:focus{
+    background-color: hsl(200, 100%, 20%);
+    box-shadow: 0 0 2px 0 hsl(200, 100%, 10%);
+}
+
+.footer{
+    background-color: #069;
+    color: aliceblue;
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    text-align: center;
+}
