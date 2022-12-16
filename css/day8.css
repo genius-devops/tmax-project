@@ -1,0 +1,17 @@
+.header{
+    background-image: url(/img/sky.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 50vh;
+
+}
+
+footer{
+    background-color: brown;
+    padding: 2rem;
+    text-align: center;
+    color: aliceblue;
+    /* width: max-content; */
+
+}

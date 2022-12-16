@@ -65,7 +65,8 @@ a, li{
 }
 
 .item1{ 
-    flex: 1 0 0;
+    align-self: flex-start;
+    /* flex: 1 0 0; */
     /* flex with 1 0 0 implies: grow shrink basis repectively */
     min-height: 50px;
     
