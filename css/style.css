@@ -90,6 +90,9 @@ a, li{
     border-radius: 1rem;
 }
 
+.header-container{
+    max-width: 400px;
+}
 .header-text{
     /* position: absolute;
     top: 50%;
@@ -121,10 +124,73 @@ a, li{
     margin-bottom: 2rem;
     
 }
-.header-btn a{
+.btn{
     background-color: green;
     padding: 0.5 1rem;
     border-radius: 0.5rem;
     color: aliceblue;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
+    width: 100%;
+
+}
+
+
+.btn-gallery{
+    display: none;
+}
+
+.btn-testimonial{
+
+    
+}
+
+.home{
+    display: none;
+}
+
+/* for tablet view 
+@media(min-width:768px){
+    
+}
+ */
+
+/* for desktop view @media(min-width:998px){
+
+} */
+
+
+/* desktop view */
+@media(min-width:768px){
+    .contact, .contact p{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .phone{
+        display: flex;
+        gap: 1rem;
+        margin-right: 3rem;
+    }
+
+    .address{
+        margin-left: 3rem;
+    }
+
+    .logo{
+        margin-left: 3rem;
+    }
+
+    .text-heading{
+        font-size: 3rem;
+    }
+
+    .header-container{
+
+        max-width: 800px;
+    }
+    .sub-heading{
+        width: 500px;
+    }
+
 }
