@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project day5</title>
+    <style>
+        body{
+            background-color: rgb(252, 245, 245) ;
+        }
+    </style>
 </head>
-<body style="background-color: rgb(252, 245, 245) ;">
+<body>
 <form action="" method="post">
     <h1  style="text-align: center ; background-color: chartreuse ; border-radius: 3rem;">APPLICATION FORM</h1>
     <hr>
@@ -14,25 +19,17 @@
         <h2  style="text-align: center ;">Personal information</h2>
         <div>
         <label for=""><b>Surname</b></label>
-        <br>
         <input
         required 
         type="text" 
         name=" surename"
         placeholder="enter your surename"  
         id="">
+        &nbsp; &nbsp; &nbsp;
+    
 
-        <!-- middle name -->
-        <label for=""><b>Middle Name</b></label>
-        <br>
-        <input 
-        required
-        type="text" 
-        name="Middle Name"
-        placeholder="enter your middle name" 
-        id="">
-
-        <!-- first name -->
+        
+        <!-- other name -->
         <label for=""><b>First Name</b></label>
         <input
         required 
@@ -43,6 +40,7 @@
 
     </div>
     <br>
+    <br>
     <div>
         <!-- date of birth -->
         <label for=""><b>Date of birth</b></label>
@@ -51,9 +49,8 @@
         type="date" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
     
-
-
         <label for=""><b>Marital Status</b></label>
         <select required name="" id="">
             <option value="select">select</option>
@@ -63,22 +60,24 @@
             <option value="widow">widow</option>
             <option value="complicated">complicated</option>
         </select>
+       
 
-        <!-- state code -->
-        <label for=""><b>state code</b></label>
-        <input 
-        required 
-        placeholder="state code" 
-        type="digit" 
-        name="" 
-        value="" 
-        id="">
-
+       
     </div>
     <br>
+    <br>
     <div>
-
-            <!-- batch -->
+         <!-- state code -->
+         <label for=""><b>state code</b></label>
+         <input 
+         required 
+         placeholder="state code" 
+         type="digit" 
+         name="" 
+         value="" 
+         id="">
+         &nbsp;&nbsp;&nbsp;
+                     <!-- batch -->
         <label for=""><b>batch</b></label>
         <input 
         required 
@@ -87,14 +86,23 @@
         name="" 
         id="">
 
+ 
+    </div>
+    <br>
+    <br>
+    <div>
+
+        &nbsp;&nbsp;&nbsp;
+
         <!-- year of serving -->
-        <label for="">year</label>
+        <label for=""><b>year</b></label>
         <input 
         required 
         placeholder="year" 
         type="year" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
 
         <!-- nysc detail -->
         <label for=""><b>call up no</b></label>
@@ -107,9 +115,8 @@
 
         </div>
         <br>
+        <br>
         <div>
-
-
             <!-- course studied -->
         <label for=""><b>profession</b></label>
         <input 
@@ -118,6 +125,7 @@
         type="text" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
 
         <!-- qualification -->
         <label for=""><b>qualification</b></label>
@@ -127,8 +135,11 @@
         type="text" 
         name="" 
         id="">
-
-        <!-- school -->
+        </div>
+        <br>
+        <br>
+        <div>
+            <!-- school -->
         <label for=""><b>institution</b></label>
         <input 
         required 
@@ -136,7 +147,7 @@
         type="text" 
         name="" 
         id="">
-
+        &nbsp;&nbsp;
         <!-- faculty -->
         <label for=""><b>faculty</b></label>
         <input 
@@ -149,11 +160,8 @@
         
     </div>
     <br>
+    <br>
     <div>
-
-
-
-
         <label for=""><b>class of graduation</b></label>
         <input 
         required 
@@ -161,6 +169,8 @@
         type="text" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
+
 
 
         <label for=""><b>relocation from</b></label>
@@ -170,7 +180,11 @@
         type="text" 
         name="" 
         id="">
-
+        &nbsp;&nbsp;&nbsp;
+    </div>
+    <br>
+    <br>
+    <div>
         <label for=""><b>old state code</b></label>
         <input 
         required 
@@ -178,6 +192,7 @@
         type="text" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
 
         <label for=""><b>new state code</b></label>
         <input 
@@ -187,8 +202,8 @@
         
     </div>
     <br>
+    <br>
     <div>
-
         <label for=""><b>state of origin</b></label>
         <input 
         required 
@@ -196,6 +211,7 @@
         type="text" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
 
         <label for=""><b>local government</b></label>
         <input 
@@ -204,108 +220,121 @@
         type="text" 
         name="" 
         id="">
-
-
-        <label for=""><b>phone number</b></label>
-        <input 
-        type="text" 
-        name="" 
-        id="">
-
-        <label for=""><b>date of birth</b></label>
-        <input 
-        type="date" 
-        name="" 
-        id="">
-
+        &nbsp;&nbsp;&nbsp;
         </div>
+        <br>
         <br>
 
         <div>
-
+            <label for=""><b>phone number</b></label>
+            <input 
+            type="text" 
+            name="" 
+            id="">
+            
+            &nbsp;&nbsp;&nbsp;
             <label for=""><b>date of registration</b></label>
             <input 
             type="date" 
             name="" 
             id="">
-            
-            <label for=""><b>state of health</b></label>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for=""><b>state of health</b></label>
         <input 
         type="text" 
         name="" 
         id="">
-
+        &nbsp;&nbsp;&nbsp;
         <label for=""><b>sex</b></label>
         <input 
         type="text" 
         name="" 
         id="">
         
+        
+    </div>
+    <br>
+    <br>
+    <div>
+        
         <label for=""><b>age</b></label>
         <input 
         type="text" 
         name="" 
         id="">
-    </div>
-    <br>
-    <div>
-
-        
+        &nbsp;&nbsp;&nbsp;
         <label for=""><b>country of study</b></label>
         <input 
         type="text" 
         name="" 
         id="">
+        
 
+    </div>
+    <br>
+    <div>
         <label for=""><b>home address</b></label>
         <input 
         type="text" 
         name="" 
         id="">
+        &nbsp;&nbsp;&nbsp;
 
         <label for=""><b>state of deployment</b></label>
         <input 
         type="text" 
         name="" 
         id="">
-        
-        <label for=""><b>current address</b></label>
-        <input 
-        type="text" 
-        name="" 
-        id="">
+        &nbsp;&nbsp;&nbsp;
     </div>
+    <br>
     <br>
     <div>
 
         <label for=""><b>next of kin</b></label>
         <input type="text" name="" id="">
+        &nbsp;&nbsp;&nbsp;
         
         <label for=""><b>phone no.</b></label>
         <input type="text" name="" id="">
-        
+        &nbsp;&nbsp;&nbsp;
+    </div>
+    <br>
+    <br>
+    <div>
         <label for=""><b>address</b></label>
         <input type="text" name="" id="">
-        
+        &nbsp;&nbsp;&nbsp;
+
         <label for=""><b>relationship</b></label>
         <input type="text" name="" id="">
         
     </div>
     <br>
+    <br>
     <div>
 
         <label for=""><b>parents</b></label>
         <input type="text" name="" id="">
-        
+        &nbsp;&nbsp;&nbsp;
+
         <label for=""><b>phone no.</b></label>
         <input type="text" name="" id="">
+        &nbsp;&nbsp;&nbsp;
 
+        
+    </div>
+    <br>
+    <br>
+    <div>
         <label for=""><b>address of parents</b></label>
         <input type="text" name="" id="">
-
+        &nbsp;&nbsp;&nbsp;
         <label for=""><b>additional information</b></label>
         <input type="text" name="" id="">
-        
     </div>
     <br>
     <hr>
@@ -317,17 +346,25 @@
             border-radius: 3rem;"> <i> for official use </i> 
         </h2>
         <br>
-        <label for=""><b>state of deployment</b></label>
-        <input type="text" name="" id="">
+        <div>
+            <label for=""><b>state of deployment</b></label>
+            <input type="text" name="" id="">
+             &nbsp;&nbsp;&nbsp;
 
-        <label for=""><b>state of relocation</b></label>
-        <input type="text" name="" id="">
+            <label for=""><b>state of relocation</b></label>
+            <input type="text" name="" id="">
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <label for=""><b>reasons for relocation</b></label>
+            <input type="text" name="" id="">
+            &nbsp;&nbsp;&nbsp;
         
-        <label for=""><b>reasons for relocation</b></label>
-        <input type="text" name="" id="">
-        
-        <label for=""><b>date of relocation</b></label>
-        <input type="text" name="" id="">
+            <label for=""><b>date of relocation</b></label>
+         <input type="text" name="" id="">
+        </div>
         
         
     </div>
@@ -339,7 +376,5 @@
     id=""
     style="background-color: rgb(10, 218, 190) ;">
 </form>
-<p><button 
-    style="background-color:rgb(10, 218, 190) ;"><a href="/html/day6.html" style="text-decoration: none ;" >next</a></button></p>
 </body>
 </html>
